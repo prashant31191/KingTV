@@ -4,7 +4,7 @@ apply plugin: 'com.neenbedankt.android-apt'
 apply from: 'tinker-support.gradle'
 
 android {
-    signingConfigs {
+   /* signingConfigs {
         config {
 
             //加载资源
@@ -25,7 +25,7 @@ android {
             keyPassword key_keyPassword
             storePassword key_storePassword
         }
-    }
+    }*/
     compileSdkVersion 24
     buildToolsVersion "24.0.2"
     defaultConfig {
@@ -45,7 +45,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.config
+          //  signingConfig signingConfigs.config
         }
     }
 }

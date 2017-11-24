@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/KingTV.iml" filepath="$PROJECT_DIR$/KingTV.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/KingTV.iml" filepath="$PROJECT_DIR$/.idea/KingTV.iml" />
+      <module fileurl="file://E:\Prashant\Github_Demo\KingTV\KingTV.iml" filepath="E:\Prashant\Github_Demo\KingTV\KingTV.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://E:\Prashant\Github_Demo\KingTV\app\app.iml" filepath="E:\Prashant\Github_Demo\KingTV\app\app.iml" />
     </modules>
   </component>
 </project>
